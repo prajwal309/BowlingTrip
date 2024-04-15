@@ -1,5 +1,3 @@
-import numpy as np
-
 AshutoshPaysFood = 82.00
 AshutoshPaysFirstRound = 120.51
 DeepsingPaysSecondRound = 75.96
@@ -27,5 +25,5 @@ print("Bjoern Pays: ", round(BjoernPays, 2), " to Ashutosh")
 print("Ashutosh Gets: ", -round(AshutoshPays-AshutoshPaysFood-AshutoshPaysFirstRound, 2))
 print("Deepsing Gets: ", round(DeepsingPays- DeepsingPaysSecondRound,2))
 
-print("Total Expense: ", PrajwalPays+MarianaPays+PragyaPays+BjoernPays+AshutoshPays+DeepsingPays)
-print("Total Credit: ", AshutoshPaysFood+AshutoshPaysFirstRound+DeepsingPaysSecondRound)
+print("Total Expense: ", round(PrajwalPays+MarianaPays+PragyaPays+BjoernPays+AshutoshPays+DeepsingPays,2))
+print("Total Credit: ", round(AshutoshPaysFood+AshutoshPaysFirstRound+DeepsingPaysSecondRound,2))
