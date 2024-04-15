@@ -22,3 +22,5 @@ Deepsing Gets:  26.81  from Prajwal
 Total Expense:  278.47
 Total Credit:  278.47
 ******************************
+
+@Marianna gets 19.88 from me instead of @Pragya  because she already paid me the wrong amount
