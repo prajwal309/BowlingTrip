@@ -19,11 +19,13 @@ BjoernPays  =  (27.98)/2.*TipFactor+(AshutoshPaysFirstRound+DeepsingPaysSecondRo
 AshutoshPays  =  (27.98)/2.*TipFactor+(AshutoshPaysFirstRound+DeepsingPaysSecondRound)/6.0
 
 print("Prajwal Pays: ",round(PrajwalPays,2))
-print("Mariana Pays: ", round(MarianaPays, 2))
-print("Pragya Pays: ", round(PragyaPays, 2))
-print("Bjoern Pays: ", round(BjoernPays, 2))
-print("Ashutosh Pays: ", round(AshutoshPays-AshutoshPaysFood-AshutoshPaysFirstRound, 2))
-print("Deepsing Pays: ", round(DeepsingPays- DeepsingPaysSecondRound,2))
+print("Prajwal Pays: 26.81 to Deepsing.")
+print("Prajwal Pays: ",round(PrajwalPays-26.81,2), "to Ashutosh")
+print("Mariana Pays: ", round(MarianaPays, 2), " to Ashutosh")
+print("Pragya Pays: ", round(PragyaPays, 2), " to Ashutosh")
+print("Bjoern Pays: ", round(BjoernPays, 2), " to Ashutosh")
+print("Ashutosh Gets: ", -round(AshutoshPays-AshutoshPaysFood-AshutoshPaysFirstRound, 2))
+print("Deepsing Gets: ", round(DeepsingPays- DeepsingPaysSecondRound,2))
 
-print("Total: ", PrajwalPays+MarianaPays+PragyaPays+BjoernPays+AshutoshPays+DeepsingPays)
+print("Total Expense: ", PrajwalPays+MarianaPays+PragyaPays+BjoernPays+AshutoshPays+DeepsingPays)
 print("Total Credit: ", AshutoshPaysFood+AshutoshPaysFirstRound+DeepsingPaysSecondRound)
